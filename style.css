@@ -1,3 +1,17 @@
+/******************** Définition des polices personnalisées ********************/
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('Fonts/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+
+}
+
 h1 {
 
     color:red;
@@ -15,3 +29,17 @@ h1 {
 #hebergements{
     background-color: slategray;
 }
+
+#filtres{
+    display: flex; 
+    list-style: none;
+}
+
+#filtres li { 
+    border: tomato 1px solid; 
+    padding: 10px;
+    
+
+
+}
+
