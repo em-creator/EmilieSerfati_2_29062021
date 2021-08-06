@@ -7,39 +7,44 @@
     font-style: normal;
 }
 
-body { 
+body {
     font-family:'Raleway', Arial, Helvetica, sans-serif;
+} 
 
-}
-
-h1 {
-
-    color:red;
-}
-
-#page_css{
-    color:royalblue; 
-}
+ul{
+    list-style: none;
+} 
 
 .gras{
     font-weight: bold;
 }
 
-    
 #hebergements{
     background-color: slategray;
 }
 
-#filtres{
-    display: flex; 
-    list-style: none;
+.vignette_hebergement{
+    background-color: white;
+    border-radius: 10px;
+
 }
 
+#filtres{
+    display: flex; 
+     
+}
 #filtres li { 
     border: tomato 1px solid; 
     padding: 10px;
-    
+    }
 
-
+.fa-star{
+    color: #0065FC;
 }
 
+.lightblue {
+    color:grey;
+}
+img {
+    width: 50px;
+}
