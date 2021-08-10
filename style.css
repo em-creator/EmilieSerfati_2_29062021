@@ -20,14 +20,41 @@ ul{
 }
 
 #hebergements{
-    background-color: slategray;
+    background-color: #f2f2f2;
+    width: 60%;
+}
+
+#liste_hebergements{
+    display: flex;
 }
 
 .vignette_hebergement{
+
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 30%;
 
 }
+    .images_petit{
+        width: 30%;
+        height: 30%
+    }
+
+    #conteneur{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .element{
+        margin: auto; 
+
+    }
+    
+    .section {
+        display: inline-block
+    }
+
 
 #filtres{
     display: flex; 
@@ -48,3 +75,4 @@ ul{
 img {
     width: 50px;
 }
+
