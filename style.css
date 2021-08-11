@@ -26,13 +26,16 @@ ul{
 
 #liste_hebergements{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .vignette_hebergement{
 
     background-color: white;
     border-radius: 5px;
-    width: 30%;
+    width: 25%;
+    margin: 9px;
+    padding: 5px; 
 
 }
     .images_petit{
