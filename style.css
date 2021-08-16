@@ -35,32 +35,19 @@ ul{
     border-radius: 5px;
     width: 25%;
     margin: 9px;
-    padding: 5px; 
-
-}
-    .images_petit{
-        width: 30%;
-        height: 30%
-    }
-
-    #conteneur{
-        display: flex;
-        justify-content: space-around;
-
-    }
-
-    .element{
-        margin: auto; 
-
-    }
+    padding: 5px;
+    /*arrondir les quatre coins*/
+    border-radius: 10px;
     
-    .section {
-        display: inline-block
-    }
+}
+    
 
 
 #filtres{
-    display: flex; 
+    display: flex;
+    align-items: center;
+
+
      
 }
 #filtres li { 
@@ -78,4 +65,5 @@ ul{
 img {
     width: 50px;
 }
+
 
