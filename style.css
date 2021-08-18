@@ -36,23 +36,21 @@ ul{
     width: 25%;
     margin: 9px;
     padding: 5px;
-    /*arrondir les quatre coins*/
+    /*arrondir les quatre coins des vignettes*/
     border-radius: 10px;
-    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+.frame{
+    margin: 1Opx;
+    position: relative
     
+    }
 
-
-#filtres{
-    display: flex;
-    align-items: center;
-
-
-     
-}
-#filtres li { 
-    border: tomato 1px solid; 
-    padding: 10px;
+#filtres {
+    justify-content: initial;
+    flex-direction: row;
     }
 
 .fa-star{
@@ -63,7 +61,8 @@ ul{
     color:grey;
 }
 img {
-    width: 50px;
-}
+    width: 25%;
+    height: 25%;
+    }
 
 
