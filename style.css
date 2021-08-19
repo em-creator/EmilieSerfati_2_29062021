@@ -49,8 +49,8 @@ ul{
 }
 
 .vignette_hebergement h4 {
-    margin: 6px;
-    font-size: 14px;
+    margin: 8px;
+    height: 14px; 
 }
 .vignette_hebergement p{
     font-size: 13px;
@@ -60,6 +60,42 @@ ul{
     font-size: 8px;
 }
 
+.vignettes_plus_populaires{
+    background-color: white;
+    border-radius: 3px;
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+    /*arrondir les deux coins gauche haut et bas des vignettes*/
+    border-radius: 5px;
+}
+
+.vignettes_plus_populaires img{
+    object-fit: cover;
+    width:  100%;
+    height: 100px;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+.vignettes_plus_populaires h3{
+    margin: 6px;
+    height: 6px; 
+
+}
+
+.vignettes_plus_populaires p{
+    font-size: 9px;
+    margin: 6px;
+
+}
+
+
+.fa-star{
+    font-size: 8px;
+
+
+}
 .frame{
     margin: 1Opx;
     position: relative
