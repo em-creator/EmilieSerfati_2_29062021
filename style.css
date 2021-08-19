@@ -9,6 +9,7 @@
 
 body {
     font-family:'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0px; 
 } 
 
 ul{
@@ -27,17 +28,17 @@ ul{
 #liste_hebergements{
     display: flex;
     flex-wrap: wrap;
+    padding: 15px;
 }
 
 .vignette_hebergement{
 
     background-color: white;
     border-radius: 5px;
-    width: 25%;
+    width: 29%;
     margin: 9px;
     padding: 5px;
     /*arrondir les quatre coins des vignettes*/
-    border-radius: 15px;
 
 }
 
@@ -58,6 +59,10 @@ ul{
 }
 .fa-star{
     font-size: 8px;
+}
+
+#populaires{
+    width: 40%; 
 }
 
 .vignettes_plus_populaires{
