@@ -20,9 +20,14 @@ ul{
     font-weight: bold;
 }
 
+#Hebergements_populaires {
+    display: flex;
+}
+
+
 #hebergements{
     background-color: #f2f2f2;
-    width: 60%;
+    width: 50%;
 }
 
 #liste_hebergements{
@@ -65,31 +70,40 @@ ul{
     width: 40%; 
 }
 
+#liste_populaires{
+    padding: 15px;
+} 
+
 .vignettes_plus_populaires{
     background-color: white;
-    border-radius: 3px;
-    width: 10%;
+    width: 100%;
     margin: 5px;
     padding: 5px;
     /*arrondir les deux coins gauche haut et bas des vignettes*/
     border-radius: 5px;
+    display: flex; 
+    
 }
 
 .vignettes_plus_populaires img{
     object-fit: cover;
-    width:  100%;
+    width:  22%;
     height: 100px;
     border-radius: 8px 0px 0px 8px;
 
 }
 
-.vignettes_plus_populaires h3{
+.description_populaires{
+
+}
+
+.description_populaires h3{
     margin: 6px;
     height: 6px; 
 
 }
 
-.vignettes_plus_populaires p{
+.description_populaires p{
     font-size: 9px;
     margin: 6px;
 
