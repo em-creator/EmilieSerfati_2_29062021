@@ -63,15 +63,19 @@ ul{
 }
 
 .vignette_hebergement h4 {
-    margin: 8px;
+    margin: 8px 6px; 
     height: 14px; 
 }
 .vignette_hebergement p{
     font-size: 13px;
     margin: 6px;
 }
+.vignette_hebergement div{
+    padding-left: 6px;
+}
+
 .fa-star{
-    font-size: 8px;
+    font-size: 10px;
 }
 
 #hebergements a{
