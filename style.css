@@ -148,12 +148,15 @@ ul{
 
 
 .fa-star{
-    font-size: 8px;
+    font-size: 11px;
+    color: #0065FC; 
 }
 
 .frame{
     margin: 1Opx;
     position: relative;
+    /*arrondir les angles du fond gris*/
+    border-bottom-left-radius: 30%;
 
 }
 
@@ -168,16 +171,21 @@ ul{
     flex-direction: row;
     }
 
-.fa-star{
-    color: #0065FC;
-}
+
 
 .lightblue {
     color:grey;
 }
 
 
+.activités_marseille{
 
+}
+
+.description_activités_marseille{
+    
+
+}
 
 
 
