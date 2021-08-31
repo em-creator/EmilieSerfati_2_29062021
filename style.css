@@ -83,13 +83,8 @@ ul{
     text-decoration: none;
     font-weight: bold;
     padding-left: 35px;
-
 }
-.description_populaires{
-    justify-content: initial;
-    flex-direction: row;
 
-}        
 
 
 
@@ -99,7 +94,16 @@ ul{
     
 }
 
+#populaires h3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin: 35px 0px 0px 0px;
+}
 
+.fa-chart-line{
+    font-size: 20px;
+}
 
 #Hebergements_populaires {
     display: flex;
@@ -121,9 +125,7 @@ ul{
     display: flex; flex-direction: row;
 }
 
-.fa-chart-line{
 
-}
     
 
 
@@ -133,8 +135,11 @@ ul{
     height: 100px;
     border-radius: 8px 0px 0px 8px;
 }    
+.description_populaires{
 
-.description_populaires h3{
+}
+
+.description_populaires h4{
     margin: 6px;
     height: 6px; 
 
@@ -160,16 +165,9 @@ ul{
 
 }
 
-.fa-chart-line {
-    padding-top: 0%;  
-    font-size: 7px;
 
-}
 
-.description_populaires{ 
-    justify-content: initial;
-    flex-direction: row;
-    }
+
 
 
 
