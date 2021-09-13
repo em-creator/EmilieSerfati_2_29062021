@@ -91,8 +91,12 @@ ul{
 #populaires{
     background-color: #f2f2f2;
     width: 28%; 
-    
+    border-radius: 18px;
+
+
 }
+    
+
 
 #populaires h3{
     display: flex;
@@ -133,22 +137,27 @@ ul{
 
 .vignettes_plus_populaires img{
     object-fit: cover;
-    width:  30%;
-    height: 100%;
+    width: 105px;
+
     border-radius: 15px 0px 0px 15px;
 }    
 .description_populaires{
+    padding-left: 15px;
 
 
 }
 
 .description_populaires h4{
+    margin-top: 6px;
+    margin-bottom: 0px;
 
 
 }
 
 .description_populaires p{
     font-size: 13px;
+    font-size: 13px;
+    margin-top: 4px
 
 
 }
