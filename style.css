@@ -122,42 +122,7 @@ input[type=search]::placeholder{
     padding: 0px 17px 0px 0px;
     border-radius: 35px;
     margin: 12px;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #hebergements{
@@ -167,8 +132,6 @@ input[type=search]::placeholder{
     padding-bottom: 25px;
     
 }
-
-
 
 #hebergements h3{
     padding-left: 35px;
@@ -211,7 +174,7 @@ input[type=search]::placeholder{
     .vignette_hebergement div{
         padding-left: 6px;
     }
-    
+
     .fa-star{
         font-size: 10px;
     }
@@ -229,7 +192,8 @@ input[type=search]::placeholder{
         width: 28%; 
         border-radius: 18px;
     }
-    
+
+
     #populaires h3{
         display: flex;
         justify-content: space-between;
@@ -246,11 +210,10 @@ input[type=search]::placeholder{
         justify-content: space-between;
     
     }
-    
+
     #liste_populaires{
         padding: 8px 30px;
     } 
-
     .vignettes_plus_populaires{
         background-color: white;
         width: 100%;
@@ -262,7 +225,6 @@ input[type=search]::placeholder{
         height: 122px;
         margin-bottom: 30px;
     }
-
 
     .vignettes_plus_populaires img{
         object-fit: cover;
@@ -280,9 +242,7 @@ input[type=search]::placeholder{
         margin-top: 6px;
         margin-bottom: 0px;
     }
-    
-    
-    
+
     .description_populaires p{
         font-size: 13px;
         font-size: 13px;
@@ -311,8 +271,7 @@ input[type=search]::placeholder{
         .lightblue {
             color:grey;
         }
-        
-        
+
         .activités_marseille{
         
         }
@@ -326,8 +285,47 @@ input[type=search]::placeholder{
         
         .footer{
             display: flex;
-             
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+    
+    
+
+
+
+        
+        
 
 
 
