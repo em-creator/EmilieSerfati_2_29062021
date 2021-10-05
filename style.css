@@ -281,10 +281,59 @@ input[type=search]::placeholder{
         
         }
         
-        
-        
-        .footer{
+        footer{
+            background-color:#F2F2F2;
             display: flex;
+            padding: 10px Opx;
+        }    
+
+
+
+
+
+        .Liste-footer{
+            padding: 0px;
+
+
+        }    
+
+        .Liste-footer li{
+            padding: 3px 0px;
+
+        }
+
+        footer div{
+            padding-left: 40px;
+            padding-right: 160px;
+        }
+
+
+
+
+
+            
+
+
+        
+            
+             
+ 
+
+
+  
+
+
+
+
+
+
+
+
+        
+        
+
+    
+            
 
 
 
