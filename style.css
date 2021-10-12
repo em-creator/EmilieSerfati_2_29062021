@@ -272,19 +272,27 @@ input[type=search]::placeholder{
             color:grey;
         }
 
-        .activités_marseille{
-        
+
+        .Activites{
+            background-color: blanc;
+            color: #000;
+            background-image: none;
+            border-radius: 0px 0px 0px 0px; 
+            width: 0px;
+            box-shadow: cornflowerblue;
         }
-        
-        .description_activités_marseille{
             
+
+
         
-        }
+
+
+
         
         footer{
             background-color:#F2F2F2;
             display: flex;
-            padding: 10px Opx;
+            padding: 18px 0px;
         }    
 
 
@@ -293,12 +301,13 @@ input[type=search]::placeholder{
 
         .Liste-footer{
             padding: 0px;
+            margin-top: 0px;
 
 
         }    
 
         .Liste-footer li{
-            padding: 3px 0px;
+            padding: 5px 0px;
 
         }
 
@@ -307,7 +316,9 @@ input[type=search]::placeholder{
             padding-right: 160px;
         }
 
-
+        footer h4{
+            margin-bottom: 15px;
+        }
 
 
 
