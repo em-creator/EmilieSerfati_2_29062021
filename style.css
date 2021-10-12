@@ -271,16 +271,25 @@ input[type=search]::placeholder{
         .lightblue {
             color:grey;
         }
+        .liste_activites{
+            display: flex;
 
+        }
 
         .Activites{
-            background-color: blanc;
             color: #000;
-            background-image: none;
-            border-radius: 0px 0px 0px 0px; 
-            width: 0px;
-            box-shadow: cornflowerblue;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px lightgrey;
+
+ 
         }
+        .Activites img{
+            height: 50px;
+
+        }
+
+
+
             
 
 
