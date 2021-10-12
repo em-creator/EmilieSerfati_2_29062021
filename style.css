@@ -273,7 +273,17 @@ input[type=search]::placeholder{
         }
         .liste_activites{
             display: flex;
+            justify-content: space-between;
+            padding: 0px;
+        }
 
+        .liste_activites div{
+            width: 25%;
+            
+        }
+
+        .margin_activites{
+            margin-right: 30px;
         }
 
         .Activites{
@@ -288,6 +298,9 @@ input[type=search]::placeholder{
 
         }
 
+        .Activites h4{
+            margin: 0px;
+        }
 
 
             
