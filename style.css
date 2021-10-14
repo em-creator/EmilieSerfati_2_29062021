@@ -299,9 +299,10 @@ input[type=search]::placeholder{
         }
 
         .Activites img{
-            height: 100%;
+            height: calc( 100% - 42px ) ;
             object-fit: cover;
-            width: 100%;
+            border-radius: 15px 15px 0px 0px;
+
 
 
         }
