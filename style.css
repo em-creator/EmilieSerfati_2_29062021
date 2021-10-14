@@ -291,13 +291,22 @@ input[type=search]::placeholder{
             color: #000;
             border-radius: 15px;
             box-shadow: 5px 5px 10px lightgrey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
  
         }
+
         .Activites img{
-            height: 50px;
+
 
         }
+
+        .Activites h4{
+            margin: 12px 17px;
+        }
+
         .height100{
             height: 100%;
         }
@@ -310,18 +319,20 @@ input[type=search]::placeholder{
         }
         .heightfrioul{
             height: 35%;
+
             
         }
 
         .heightnotredamedelagarde{
-            height: 35%;
+            height: calc( 58% - 30px );
+            margin-bottom: 30px;
+        
             
-
-
         }
+
     
         .heightparclongchamp{
-            height: 35px;
+            height: 42%;
 
         }
 
