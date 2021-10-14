@@ -275,6 +275,7 @@ input[type=search]::placeholder{
             display: flex;
             justify-content: space-between;
             padding: 0px;
+            height: 300px;
         }
 
         .liste_activites div{
@@ -297,30 +298,42 @@ input[type=search]::placeholder{
             height: 50px;
 
         }
+        .height100{
+            height: 100%;
+        }
 
-        .Activites h4{
-            margin: 0px;
+        .heightpomegues{
+            height: calc( 65% - 30px );
+            margin-bottom: 30px;
+
+
+        }
+        .heightfrioul{
+            height: 35%;
+        }
+
+        .heightnotredamedelagarde{
+            height: 35%;
+
+
+        }
+    
+        .heightparclongchamp{
+            height: 35px;
+
         }
 
 
-            
-
-
-        
 
 
 
-        
+
         footer{
             background-color:#F2F2F2;
             display: flex;
             padding: 18px 0px;
         }    
-
-
-
-
-
+            
         .Liste-footer{
             padding: 0px;
             margin-top: 0px;
@@ -341,6 +354,20 @@ input[type=search]::placeholder{
         footer h4{
             margin-bottom: 15px;
         }
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+
 
 
 
