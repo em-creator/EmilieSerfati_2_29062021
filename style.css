@@ -224,12 +224,14 @@ input[type=search]::placeholder{
         flex-direction: row;
         height: 122px;
         margin-bottom: 30px;
+        box-shadow: 5px 5px 10px lightgrey;
     }
 
     .vignettes_plus_populaires img{
         object-fit: cover;
         width: 105px;
         border-radius: 15px 0px 0px 15px;
+        box-shadow: 5px 5px 10px lightgrey;
     
     }    
     .description_populaires{
