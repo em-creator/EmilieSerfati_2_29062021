@@ -153,6 +153,7 @@ input[type=search]::placeholder{
     margin: 20px;
     padding: 5px;
     /*arrondir les quatre coins des vignettes*/
+    box-shadow: 5px 5px 10px lightgrey
 
 }
 
