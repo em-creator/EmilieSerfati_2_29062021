@@ -21,6 +21,16 @@ ul{
     font-weight: bold;
 }
 
+.black{
+    color: black;
+}
+    
+#inscrire{
+    color: #0065FC;
+    font-weight: bold;
+
+}
+
 input[type=search]{
     padding: 9px 9px;
     font-weight: bold;
@@ -39,6 +49,37 @@ input[type=search]::placeholder{
 
     
 
+}
+
+#logo{
+    height: 37px;
+    position: absolute;
+
+}
+
+#menu_navigation ul{
+    display: flex;
+    justify-content: right;
+}
+
+#menu_navigation ul li{
+
+
+}
+
+.element_navigation:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+
+.element_navigation{
+    padding: 35px 20px 20px 20px;
+}
+
+#menu_navigation ul li a{
+    text-decoration: none;
+    
 }
 
 #icone_recherche{
