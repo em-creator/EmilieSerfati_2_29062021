@@ -63,6 +63,8 @@ input[type=search]::placeholder{
 }
 
 #menu_navigation ul li{
+    padding: 35px 20px 20px 20px;
+
 
 
 }
@@ -72,15 +74,21 @@ input[type=search]::placeholder{
     border-top: 2px solid #0065FC;
 
 }
+.element_navigation:hover a{
+    color: #0065FC;
+}
 
 .element_navigation{
-    padding: 35px 20px 20px 20px;
+    margin-right: 22px;
+    cursor: pointer;
+
 }
 
 #menu_navigation ul li a{
     text-decoration: none;
     
 }
+
 
 #icone_recherche{
     background-color: #f2f2f2;
