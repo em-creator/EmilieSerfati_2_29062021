@@ -1,6 +1,26 @@
 @media screen and (max-width: 376px) {
+    #Hebergements_populaires{
+        flex-direction: column-reverse;
     
 
+    } 
+    
+    #populaires {
+        width: 100%;
+    } 
+
+    #hebergements {
+        width: 100%;
+    }
 
 
+
+    #liste_hebergements {
+    flex-direction: column;
+}
+.vignette_hebergement {
+    margin: 20px 0px;
+    width: 100%;
+
+}
 }
