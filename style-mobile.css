@@ -35,7 +35,9 @@
     }
     .liste_activites{
         flex-direction: column;
+        height: unset;
     }
+
     .liste_activites div {
         width: 100%;
     }
@@ -46,6 +48,9 @@
     #Activites_Marseille{
         padding: 0px 15px; 
 
+    }
+    footer{
+        flex-direction: column;
     }
 
 
