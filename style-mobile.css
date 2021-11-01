@@ -16,11 +16,11 @@
 
 
     #liste_hebergements {
-    flex-direction: column;
-}
-.vignette_hebergement {
-    margin: 20px 0px;
-    width: 100%;
+        flex-direction: column;
+    }
+    .vignette_hebergement {
+        margin: 20px 0px;
+        width: 100%;
+    }
 
-}
 }
