@@ -7,20 +7,46 @@
     
     #populaires {
         width: 100%;
+        border-radius: 0px;
+    
     } 
 
     #hebergements {
         width: 100%;
+        background-color: white;
     }
 
+    #hebergements a {
+        padding-left: 15px;
+    }
 
+    
 
     #liste_hebergements {
         flex-direction: column;
+        margin-right: 10px; 
+        margin-bottom: 15px; 
+
     }
     .vignette_hebergement {
-        margin: 20px 0px;
+        margin: 10px 0px;
+        width: 100%;
+    
+    }
+    .liste_activites{
+        flex-direction: column;
+    }
+    .liste_activites div {
         width: 100%;
     }
+    .Activites{
+        height: 200px !important;
+        margin-bottom: 30px;
+    }
+    #Activites_Marseille{
+        padding: 0px 15px; 
+
+    }
+
 
 }
