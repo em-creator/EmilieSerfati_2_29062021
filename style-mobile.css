@@ -1,9 +1,16 @@
 @media screen and (max-width: 376px) {
     #Hebergements_populaires{
         flex-direction: column-reverse;
-    
+    }    
 
-    } 
+    #logo_inscrire{
+        display: flex;
+        justify-content: space-between;
+
+    }
+     
+        
+
     #menu_navigation ul{
         padding: 0px;
 
