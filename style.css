@@ -101,7 +101,7 @@ input[type=search]::placeholder{
 }
 
 
-#button_recherche{
+#button_recherche, #button_loupe{
     background-color: #0065FC;
     color: white; 
     border: none ;
@@ -110,9 +110,14 @@ input[type=search]::placeholder{
     font-weight: bold;
     position: relative;
     left: -8px;
+}
 
 
 
+
+    
+#button_loupe{ 
+    display: none;
 }
 
 #filtres{

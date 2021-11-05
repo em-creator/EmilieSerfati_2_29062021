@@ -4,7 +4,22 @@
     
 
     } 
-    
+
+    #filtres p {
+        width: 100%;
+        text-align: left;
+    }     
+
+
+    #button_recherche{ 
+        display: none;
+    }
+
+    #button_loupe{ 
+        display: block; 
+    }
+
+
     #populaires {
         width: 100%;
         border-radius: 0px;
