@@ -101,11 +101,22 @@ input[type=search]::placeholder{
 }
 
 
-#button_recherche, #button_loupe{
+#button_recherche{
     background-color: #0065FC;
     color: white; 
     border: none ;
     border-radius: 0px 10px 10px 0px;
+    padding: 10px 10px;
+    font-weight: bold;
+    position: relative;
+    left: -8px;
+}
+
+#button_loupe{
+    background-color: #0065FC;
+    color: white; 
+    border: none ;
+    border-radius: 10px;
     padding: 10px 10px;
     font-weight: bold;
     position: relative;

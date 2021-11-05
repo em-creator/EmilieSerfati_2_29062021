@@ -4,6 +4,27 @@
     
 
     } 
+    #menu_navigation ul{
+        padding: 0px;
+
+    }
+    .element_navigation{
+        margin: 0px;
+
+
+    }
+
+    .element_navigation:hover{
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+
+    }
+
+    #menu_navigation ul li{
+        width: 50%; 
+        text-align: center;
+
+    }
 
     #filtres p {
         width: 100%;
@@ -16,7 +37,7 @@
     }
 
     #button_loupe{ 
-        display: block; 
+        display: initial;
     }
 
 
