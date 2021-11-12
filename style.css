@@ -24,12 +24,23 @@ ul{
 .black{
     color: black;
 }
+
+header{
+    padding: 0px 15px; 
+
+}
     
 #inscrire{
     color: #0065FC;
     font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 
 }
+
+
+
 
 input[type=search]{
     padding: 9px 9px;
@@ -52,7 +63,8 @@ input[type=search]::placeholder{
 }
 
 #logo{
-    height: 37px;
+    height: 50px;
+
 
 
 }
