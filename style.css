@@ -58,9 +58,25 @@ input[type=search]::placeholder{
     font-weight: bold;
     color: black;
 
-    
+}   
+
+#logo_inscrire{
+    display: flex;
+    justify-content: space-between;
 
 }
+
+#menu_navigation{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+#menu_navigation ul{
+    margin: 0px;
+}
+
 
 #logo{
     height: 50px;
