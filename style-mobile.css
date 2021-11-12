@@ -1,10 +1,13 @@
-@media screen and (max-width: 376px) {
+@media all and (max-width: 768px) {
     #Hebergements_populaires{
         flex-direction: column-reverse;
     }    
 
 
-     
+   #menu_navigation{
+       position: unset;
+
+   }  
         
 
     #menu_navigation ul{
