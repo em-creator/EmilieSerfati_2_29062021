@@ -27,8 +27,11 @@ ul{
 
 header{
     padding: 0px 15px; 
-
+    position: relative;
 }
+
+
+
     
 #inscrire{
     color: #0065FC;
@@ -63,13 +66,18 @@ input[type=search]::placeholder{
 #logo_inscrire{
     display: flex;
     justify-content: space-between;
+    height: 90px;
+    align-items: center;
 
 }
+
+
+
 
 #menu_navigation{
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 85px;
 
 }
 
