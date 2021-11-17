@@ -30,22 +30,34 @@
         margin: 10px;
     }
 
+
+
+
     .liste_activites{
         flex-direction: column; 
         height: unset;
 
     }
 
+
     .liste_activites div{
         width: 100%;
+    }
+
+    .liste_activites li{
+        height: 300px;
+        height: 314px;
+        margin-bottom: 20px;
+
     }
 
 
     footer{
         flex-direction: column;
-        align-items: center;
-
+        padding-left: 20px;
     }
+
+
 
     footer div{
         padding: 0px;

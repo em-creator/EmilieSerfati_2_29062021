@@ -73,7 +73,7 @@
     }
     .vignette_hebergement {
         margin: 10px 0px;
-        width: 100%;
+        width: 100% !important; 
     
     }
     .liste_activites{
@@ -94,6 +94,7 @@
     }
     footer{
         flex-direction: column;
+        padding-left: 20px;
     }
 
 

@@ -250,7 +250,7 @@ input[type=search]::placeholder{
 
     background-color: white;
     border-radius: 15px;
-    width: 27%;
+    width: 25%; 
     margin: 20px;
     padding: 5px;
     /*arrondir les quatre coins des vignettes*/
@@ -267,7 +267,7 @@ input[type=search]::placeholder{
 
     .vignette_hebergement h4 {
         margin: 8px 6px; 
-        height: 14px; 
+        
     }
     .vignette_hebergement p{
         font-size: 13px;
@@ -375,6 +375,11 @@ input[type=search]::placeholder{
         .lightblue {
             color:grey;
         }
+
+        #Activites_Marseille{
+            padding: 0px 20px;
+        }
+
         .liste_activites{
             display: flex;
             justify-content: space-between;
