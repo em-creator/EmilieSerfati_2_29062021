@@ -223,6 +223,13 @@ input[type=search]::placeholder{
     padding: 0px 17px 0px 0px;
     border-radius: 35px;
     margin: 12px;
+
+}
+#filtres li:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    border-color: antiquewhite
+
 }
 
 
@@ -388,13 +395,12 @@ input[type=search]::placeholder{
         }
 
         .liste_activites div{
-            width: 25%;
-            
-        }
+            width: 23%;
 
-        .margin_activites{
-            margin-right: 30px;
-        }
+        }    
+
+
+
 
         .Activites{
             color: #000;
@@ -408,7 +414,7 @@ input[type=search]::placeholder{
         }
 
         .Activites img{
-            height: calc( 100% - 42px ) ;
+            height: calc( 100% - 50px ) ;
             object-fit: cover;
             border-radius: 15px 15px 0px 0px;
 
@@ -417,7 +423,8 @@ input[type=search]::placeholder{
         }
 
         .Activites h4{
-            margin: 12px 17px;
+            margin: 7px 17px;
+
         }
 
         .height100{

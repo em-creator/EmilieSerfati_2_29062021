@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #Hebergements_populaires{
         flex-direction: column-reverse;
     }    
